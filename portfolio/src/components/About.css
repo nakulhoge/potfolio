@@ -1,0 +1,84 @@
+
+
+.aboutpage{
+  background-color: #FFF;
+border-radius: 20px;
+padding: 50px;}
+
+.bostami-section-title-wrap{padding:32px 0px;}
+
+.pagetitle {
+    font-size: 40px ;
+    position: relative;
+    display: inline-block;
+    font-family: Roboto Slab, serif;
+   
+    /* color: black; */
+    margin-top: 0;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 15px
+   }
+
+   .pagetitle:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: var(--theme-primary);
+    left: 122%;
+    top: 50%;
+    transform: translatey(-50%);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background: linear-gradient(97deg, #fa5252, #dd2476);
+}
+
+.about p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #44566c;
+
+} 
+
+.whatido h3{font-size: 24px;
+    font-family: Poppins, sans-serif;
+    color: var(--body-heading);}
+
+    .whatido .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .bostami-what-do-item {
+        margin-bottom: 30px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+      }  
+      
+       
+  .bg-prink {
+    background-color: #fff4f4;
+  }
+  
+  .bg-catkrill {
+    background-color: #eef5fa;
+  }
+
+  .title{font-size: 26px;
+    font-family: Poppins, sans-serif;
+    color: black;}
+  
+.text p{font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #44566c;}
+
+    .mystyle .aboutpage{background-color: #000;}
+    .mystyle .aboutpage p{color: #A6A6A6 !important;}
+    .mystyle .aboutpage h4{color:white;}
+    .mystyle .abtbox{background-color: #000 !important;
+      border: 1px solid #353535 !important;}

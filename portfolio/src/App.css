@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+.maincont{display: flex;}
+.mainpage{
+  background-image: url("../src/assets/background.jpg");
+
+  
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    background-position: 50%;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+ .maincont{margin-top: 100px;
+margin-bottom: 100px;}
+
+ .maincont{gap: 20px;}
+ 
+ .mystyle .mainpage{
+  background-image: url("../src/assets/backgrounddark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+    background-position: 67%;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh; 
+    width: 100vw;
+ }
+
+
+/* .theme-toggle{font-size: 50px;} */
+
+.togglebtnmain {
+  display: flex;
+ justify-content: end;
+ margin-top: 50px;
+
+}
+.theme-toggle svg{
+  vertical-align: baseline;
+  font-size: 20px;
+color: #44566c ;
+}
+
+.theme-toggle{    width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  background-color: white;
+  /* box-shadow: 0 4px 4px rgba(0, 0, 0, .1); */
+border: none;}
+
+.theme-toggle:hover{background-color: #ed3d1a;}
+
+.mystyle .theme-toggle{background-color: black;}
+.mystyle .theme-toggle svg{color: white;}
+.mystyle .theme-toggle:hover{background-color: #ed3d1a;}
